@@ -1,0 +1,97 @@
+
+
+:root {
+    --branco-principal:#FFFFFF;
+    --cinza-secundario:#C0C0C0;
+    --botao-azul:#167BF7; 
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1440px;
+    height: 3435px;
+    background-color: var(--cor-de-fundo);
+    font-size:16px;
+    font-weight: 400;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+#conteudo {
+    color: var(--branco-principal);
+    display: block;
+    grid-template-columns: 50% 50%;
+    top: 7% ;
+    margin: 52px;
+    width: 588px;
+    text-align: center;   
+    font-family: --fonte-principal;
+    position: absolute;
+}
+.logo {
+    margin: 20px 0px 0px 20px
+} 
+   
+
+
+#telaFundo{
+    height: 92.5vh;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rodape{
+    color: var(--branco-principal);
+    text-align: center;
+}
+
+.botao1{
+    display: block;
+    margin-top: 54px;
+    font-size: 16px;
+    background: var(--botao-azul);
+    color: var(--branco-principal);
+    border: var(--botao-azul) solid 1px;
+    border-radius: 5px;     
+    margin-bottom: 30px;
+    padding: 1rem;
+    text-decoration: none;
+}
+.botao2{
+    background:transparent;
+    color: var(--branco-principal);
+    border: var(--branco-principal) solid 2px;
+    border-radius: 5px;     
+    font-size: 16px;
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+
+}
+
+.subtexto {
+    font-size: 12px;
+    margin-top: 10px;
+    color: var(--cinza-secundario)
+}
+#secao01{
+    margin-bottom: 95px ;
+}
+
+#secao02 {
+    color: var(--branco-principal);
+    display: flex;
+    
+    
+    
+
+}
